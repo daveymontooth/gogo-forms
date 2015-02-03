@@ -1,0 +1,11 @@
+<ul ng-show="forms.length > 0" class="list">
+    <li ng-repeat="form in forms" class="item">
+        <h2><a ui-sref="edit({ id:form.Id })">{{form.Name}}</a></h2>
+        <span>
+            Fields: {{form.Fields.length}}
+        </span>
+    </li>
+</ul>
+<div ng-show="forms.length <= 0">
+    You haven't added any forms yet.
+</div>

@@ -1,0 +1,14 @@
+<div class="builder">
+    <form name="frm{{form.Name}}">
+        <legend ng-model="form.Name">{{form.Name}}</legend>
+        <div ng-repeat="field in form.Fields">
+            <label>{{field.Label}}</label>
+            <select name="{{field.Name}}" ng-if="field.Type==='select'"></select>
+            <textarea name="{{file.Name}}" ng-if="field.Type==='textarea'"></textarea>
+            <input type="{{field.Type}}" name="{{field.Name}}"/>
+        </div>
+    </form>
+</div>
+<div class="tools">
+
+</div>

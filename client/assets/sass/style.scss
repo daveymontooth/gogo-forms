@@ -1,0 +1,42 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin:0;
+  padding:0;
+}
+.host {
+  border:1px solid #e5e5e5;
+  padding:2em;
+  width:100%;
+
+  .actions {
+    text-align:right;
+
+    a{
+      text-decoration:none;
+    }
+
+  }
+
+  .state {
+    border:1px solid #ddd;
+    overflow:hidden;
+    width:100%;
+  }
+
+}
+.list {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+
+  .item {
+    border:1px solid #f8f8f8;
+    list-style-type: none;
+    margin:1em 0;
+    padding:1em;
+  }
+}

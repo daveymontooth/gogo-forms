@@ -1,0 +1,17 @@
+{
+  "name": "formbuilder",
+  "version": "0.0.0",
+  "authors": [
+    "daveymontooth <dmontooth@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ]
+}
