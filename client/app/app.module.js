@@ -4,7 +4,7 @@
 
     angular.module('goGoForms', ['ui.router'])
         .config(function($provide, $stateProvider, $urlRouterProvider){
-            $provide.value('formsEndpoint', 'http://gray-pup-60-190828.use1-2.nitrousbox.com/');
+            $provide.value('formsEndpoint', '<Put your forms endpoint here>');
 
             $urlRouterProvider.otherwise("/");
 
